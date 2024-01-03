@@ -1,5 +1,5 @@
-# Hi there, I'm Zach. 👋
 [![Discord Presence](https://lanyard.cnrad.dev/api/1153810697021554828)](https://discord.com/users/1153810697021554828)
+# Hi there, I'm Zach. 👋
 
 An enthusiastic full-stack developer based in Ascot, UK. In addition to my role as a developer, I also serve as a code coach at Jam Coding where I help to provide better coding education for the younger generation.
 
@@ -18,4 +18,5 @@ Let's collaborate and create something amazing! 🚀
 ## Statistics
 
 [![Visits Badge](https://badges.pufler.dev/visits/zachlagden/zachlagden)](https://github.com/zachlagden/zachlagden) [![Visits Badge](https://badges.pufler.dev/years/zachlagden)](https://github.com/zachlagden) [![Visits Badge](https://badges.pufler.dev/repos/zachlagden)](https://github.com/zachlagden?tab=repositories)
+
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=zachlagden)](https://github.com/anuraghazra/github-readme-stats)
