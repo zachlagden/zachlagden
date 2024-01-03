@@ -1,5 +1,6 @@
 # Hi there, I'm Zach. 👋
 [![Discord Presence](https://lanyard.cnrad.dev/api/1153810697021554828)](https://discord.com/users/1153810697021554828)
+
 An enthusiastic full-stack developer based in Ascot, UK. In addition to my role as a developer, I also serve as a code coach at Jam Coding where I help to provide better coding education for the younger generation.
 
 🔭 Currently working on: Inspiring young minds through coding lessons for primary school students.
