@@ -14,7 +14,7 @@ An enthusiastic full-stack developer based in Ascot, UK. In addition to my role 
 Let's collaborate and create something amazing! 🚀
 
 ## Activity
-[![Discord Presence](https://lanyard.cnrad.dev/api/1153810697021554828)](https://discord.com/users/1153810697021554828)
+[![Discord Presence](https://lanyard.cnrad.dev/api/1153810697021554828?hideProfile=true)](https://discord.com/users/1153810697021554828)
 
 ## Statistics
 [![Visits Badge](https://badges.pufler.dev/visits/zachlagden/zachlagden)](https://github.com/zachlagden/zachlagden) [![Visits Badge](https://badges.pufler.dev/years/zachlagden)](https://github.com/zachlagden) [![Visits Badge](https://badges.pufler.dev/repos/zachlagden)](https://github.com/zachlagden?tab=repositories)
