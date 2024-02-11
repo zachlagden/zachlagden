@@ -3,7 +3,7 @@ An enthusiastic full-stack developer based in Ascot, UK. In addition to my role 
 
 🔭 Currently working on: Inspiring young minds through coding lessons for primary school students.
 
-🌱 Currently learning: Continuously seeking opportunities to broaden my expertise in programming and education, I am currently focused on mastering front-end web development as part of my ongoing learning journey.
+🌱 Currently learning: Working on learning the electric guitar!
 
 💬 Ask me about: Coding, teaching strategies, or anything related to science and programming!
 
