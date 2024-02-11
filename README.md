@@ -7,7 +7,7 @@ An enthusiastic full-stack developer based in Ascot, UK. In addition to my role 
 
 💬 Ask me about: Coding, teaching strategies, or anything related to science and programming!
 
-📫 How to reach me: Feel free to connect on [LinkedIn](https://www.linkedin.com/in/zachlagden/) or [Email Me](mailto:zach@zachlagden.uk]
+📫 How to reach me: Feel free to connect on [LinkedIn](https://www.linkedin.com/in/zachlagden/) or [Email Me](https://mailto:zach@zachlagden.uk]
 
 ⚡ Fun fact: When I'm not coding or teaching, you can find me enjoying a round of golf or diving into my favorite music genres.
 
