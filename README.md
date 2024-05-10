@@ -14,7 +14,7 @@ An enthusiastic full-stack developer based in Ascot, UK. In addition to my role 
 Let's collaborate and create something amazing! 🚀
 
 ## Skills
-[![Skills]([https://lanyard.cnrad.dev/api/1153810697021554828?hideProfile=true)](https://discord.com/users/1153810697021554828](https://skillicons.dev/icons?i=ae,atom,au,azure,bash,bootstrap,cloudflare,codepen,debian,discord,bots,django,electron,figma,gcp,git,github,githubactions,gitlab,gmail,html,js,jquery,kali,linkedin,linux,md,mongodb,notion,npm,opencv,ps,postman,powershell,pr,pycharm,raspberrypi,regex,replit,stackoverflow,svg,tailwind,tensorflow,ts,vscode,windows,ubuntu,wordpress&perline=8&theme=dark))
+[![Discord Presence](https://skillicons.dev/icons?i=ae,atom,au,azure,bash,bootstrap,cloudflare,codepen,debian,discord,bots,django,electron,figma,gcp,git,github,githubactions,gitlab,gmail,html,js,jquery,kali,linkedin,linux,md,mongodb,notion,npm,opencv,ps,postman,powershell,pr,pycharm,raspberrypi,regex,replit,stackoverflow,svg,tailwind,tensorflow,ts,vscode,windows,ubuntu,wordpress&perline=8&theme=dark)](https://skillicons.dev/)
 
 ## Activity
 [![Discord Presence](https://lanyard.cnrad.dev/api/1153810697021554828?hideProfile=true)](https://discord.com/users/1153810697021554828)
