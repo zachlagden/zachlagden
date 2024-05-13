@@ -27,4 +27,5 @@ Let's collaborate and create something amazing! 🚀
 ![](https://github-readme-streak-stats.herokuapp.com/?user=zachlagden&theme=dark&hide_border=false)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=zachlagden&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 <br/>
+---
 (Most of my high quality project are private, the ones on here are either old or not well maintained. Please contact me personally for information about work.
