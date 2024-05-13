@@ -1,4 +1,5 @@
 # Hi there, I'm Zach. 👋
+![visitors](https://visitor-badge.glitch.me/badge?page_id=zachlagden.zachlagden&left_color=green&right_color=red)
 An enthusiastic full-stack developer based in Ascot, UK. In addition to my role as a developer, I also serve as a head code coach at Jam Coding where I help to provide better coding education for the younger generation.
 
 🔭 Currently working on: Inspiring young minds through coding lessons for primary school students.
