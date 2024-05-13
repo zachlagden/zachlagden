@@ -23,8 +23,8 @@ Let's collaborate and create something amazing! 🚀
 ## Statistics
 [![Visits Badge](https://badges.pufler.dev/visits/zachlagden/zachlagden)](https://github.com/zachlagden/zachlagden) [![Visits Badge](https://badges.pufler.dev/years/zachlagden)](https://github.com/zachlagden) [![Visits Badge](https://badges.pufler.dev/repos/zachlagden)](https://github.com/zachlagden?tab=repositories)
 
-![](https://github-readme-stats.vercel.app/api?username=zachlagden&theme=gruvbox&include_all_commits=true&hide_rank=true)
 ![](https://github-readme-streak-stats.herokuapp.com/?user=zachlagden&theme=dark&hide_border=false)
+![](https://github-readme-stats.vercel.app/api?username=zachlagden&theme=gruvbox&include_all_commits=true&hide_rank=true)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=zachlagden&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 <br/>
 ---
