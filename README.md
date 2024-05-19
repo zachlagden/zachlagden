@@ -1,8 +1,8 @@
 # Hi there, I'm Zach. 👋
 
-An enthusiastic full-stack developer based in Ascot, UK. In addition to my role as a developer, I also serve as a head code coach at Jam Coding where I help to provide better coding education for the younger generation.
+An enthusiastic full-stack developer based in Ascot, UK. In addition to my role as a developer, I also serve as a head coach at [Jam Coding](https://jamcoding.co.uk/) where I help to provide better coding education for the younger generation; and alongside this I teach [skills bootcamps](https://step8up.co.uk/step8up-skills-bootcamps) at [Step8Up](https://step8up.co.uk).
 
-🔭 Currently working on: Inspiring young minds through coding lessons for primary school students.
+🔭 Currently working on: Inspiring young and old minds through education.
 
 🌱 Currently learning: Working on learning the electric guitar!
 
