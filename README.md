@@ -2,9 +2,9 @@
 
 An enthusiastic full-stack developer based in Ascot, UK. In addition to my role as a developer, I also serve as a head coach at [Jam Coding](https://jamcoding.co.uk/) where I help to provide better coding education for the younger generation; and alongside this I teach [skills bootcamps](https://step8up.co.uk/step8up-skills-bootcamps) at [Step8Up](https://step8up.co.uk).
 
-🔭 Currently working on: Inspiring young and old minds through education.
+🔭 Currently working on: Inspiring young and old minds through education. I work with Step8up Academy and Jam Coding to better education for all.
 
-🌱 Currently learning: Working on learning the electric guitar!
+🌱 Currently learning: NextJS, C# and electric guitar!
 
 💬 Ask me about: Coding, teaching strategies, or anything related to science and programming!
 
@@ -26,6 +26,3 @@ Let's collaborate and create something amazing! 🚀
 ![](https://github-readme-streak-stats.herokuapp.com/?user=zachlagden&theme=dark&hide_border=false)
 ![](https://github-readme-stats.vercel.app/api?username=zachlagden&theme=gruvbox&include_all_commits=true&hide_rank=true)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=zachlagden&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-<br/>
----
-(Most of my high quality project are private, the ones on here are either old or not well maintained. Please contact me personally for information about work.
