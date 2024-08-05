@@ -2,7 +2,7 @@
 
 An enthusiastic full-stack developer based in Ascot, UK. In addition to my role as a developer, I also serve as a head coach at [Jam Coding](https://jamcoding.co.uk/) where I help to provide better coding education for the younger generation; and alongside this I teach [skills bootcamps](https://step8up.co.uk/step8up-skills-bootcamps) at [Step8Up](https://step8up.co.uk).
 
-You will find most of my open-source projects within [Lagden Development](https://github.com/Lagden-Development); and my professional work at [Step8Up](https://github.com/step8up-uk) and [CLCS](https://github.com/CL-Client-Solutions).
+You will find my open-source projects within [Lagden Development](https://lagden.dev); and my professional work at [Step8Up](https://github.com/step8up-uk) and [CLCS](https://github.com/CL-Client-Solutions).
 
 🔭 Currently working on: Inspiring young and old minds through education. I work with Step8up Academy and Jam Coding to better education for all.
 
@@ -15,6 +15,12 @@ You will find most of my open-source projects within [Lagden Development](https:
 ⚡ Fun fact: When I'm not coding or teaching, you can find me enjoying a round of golf or diving into my favorite music genres.
 
 Let's collaborate and create something amazing! 🚀
+
+## My Websites
+1. [zachlagden.uk](https://zachlagden.uk)
+2. [lagden.dev](https://lagden.dev)
+3. [betterqr.app](https://betterqr.app)
+4. [clclientsolutions.org](https://clclientsolutions.org)
 
 ## Skills
 [![Discord Presence](https://skillicons.dev/icons?i=ae,atom,au,azure,bash,bootstrap,cloudflare,codepen,debian,discord,bots,django,electron,figma,gcp,git,github,githubactions,gitlab,gmail,html,js,jquery,kali,linkedin,linux,md,mongodb,notion,npm,opencv,ps,postman,powershell,pr,pycharm,raspberrypi,regex,replit,stackoverflow,svg,tailwind,tensorflow,ts,vscode,windows,ubuntu,wordpress&perline=8&theme=dark)](https://skillicons.dev/)
