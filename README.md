@@ -17,10 +17,10 @@ You will find my open-source projects within [Lagden Development](https://lagden
 Let's collaborate and create something amazing! 🚀
 
 ## My Websites
-1. [zachlagden.uk](https://zachlagden.uk)
-2. [lagden.dev](https://lagden.dev)
-3. [betterqr.app](https://betterqr.app)
-4. [clclientsolutions.org](https://clclientsolutions.org)
+1. <a href="https://zachlagden.uk" target="_blank">zachlagden.uk</a>
+2. <a href="https://lagden.dev" target="_blank">lagden.dev</a>
+3. <a href="https://betterqr.app" target="_blank">betterqr.app</a>
+4. <a href="https://clclientsolutions.org" target="_blank">clclientsolutions.org</a>
 
 ## Skills
 [![Discord Presence](https://skillicons.dev/icons?i=ae,atom,au,azure,bash,bootstrap,cloudflare,codepen,debian,discord,bots,django,electron,figma,gcp,git,github,githubactions,gitlab,gmail,html,js,jquery,kali,linkedin,linux,md,mongodb,notion,npm,opencv,ps,postman,powershell,pr,pycharm,raspberrypi,regex,replit,stackoverflow,svg,tailwind,tensorflow,ts,vscode,windows,ubuntu,wordpress&perline=8&theme=dark)](https://skillicons.dev/)
