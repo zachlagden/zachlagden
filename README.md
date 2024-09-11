@@ -26,7 +26,7 @@ Let's collaborate and create something amazing! 🚀
 [![Discord Presence](https://skillicons.dev/icons?i=ae,atom,au,azure,bash,bootstrap,cloudflare,codepen,debian,discord,bots,django,electron,figma,gcp,git,github,githubactions,gitlab,gmail,html,js,jquery,kali,linkedin,linux,md,mongodb,notion,npm,opencv,ps,postman,powershell,pr,pycharm,raspberrypi,regex,replit,stackoverflow,svg,tailwind,tensorflow,ts,vscode,windows,ubuntu,wordpress&perline=8&theme=dark)](https://skillicons.dev/)
 
 ## Activity
-[![Discord Presence](https://lanyard.cnrad.dev/api/1153810697021554828?hideProfile=true)](https://discord.com/users/1153810697021554828)
+[![Discord Presence](https://lanyard.cnrad.dev/api/1277005773230313474?hideProfile=true)](https://discord.com/users/1277005773230313474)
 
 ## Statistics
 [![Visits Badge](https://badges.pufler.dev/visits/zachlagden/zachlagden)](https://github.com/zachlagden/zachlagden) [![Visits Badge](https://badges.pufler.dev/years/zachlagden)](https://github.com/zachlagden) [![Visits Badge](https://badges.pufler.dev/repos/zachlagden)](https://github.com/zachlagden?tab=repositories)
