@@ -1,32 +1,35 @@
-# Hi there, I'm Zach. 👋
+# Hi, I'm Zach! 👋
 
-An enthusiastic full-stack developer based in Ascot, UK. In addition to my role as a developer, I also serve as a head coach at [Jam Coding](https://jamcoding.co.uk/) where I help to provide better coding education for the younger generation; and alongside this I teach [skills bootcamps](https://step8up.co.uk/step8up-skills-bootcamps) at [Step8Up](https://step8up.co.uk).
+I'm not just a software developer—I wear many hats. Based in Ascot, UK, I’m a dynamic entrepreneur, technical architect, and problem-solver. As the Co-Founder and Software Engineer at [CL Client Solutions](https://clclient.solutions) and Founder of [Lagden Development](https://lagden.dev), I thrive at the intersection of technology, business strategy, and creative thinking.
 
-You will find my open-source projects within [Lagden Development](https://lagden.dev); and my professional work at [Step8Up](https://github.com/step8up-uk) and [CLCS](https://github.com/CL-Client-Solutions).
+You can explore some of my open-source work through [Lagden Development](https://github.com/Lagden-Development). While many of my GitHub projects are private, I’m constantly building, iterating, and innovating.
 
-🔭 Currently working on: Inspiring young and old minds through education. I work with Step8up Academy and Jam Coding to better education for all.
+**🔧 What I Bring to the Table:**
+With a wealth of experience in business development, technical architecture, and software engineering, I manage everything from infrastructure to digital strategy. My skill set spans Ubuntu, VPS, Cloudflare, Flask, web development, NGINX, and beyond. Whether it’s scaling a business, optimising servers, or developing web solutions, I love connecting the dots between technology and business growth.
 
-🌱 Currently learning: NextJS, C# and electric guitar!
+**🔭 Current Focus:**  
+I’m focused on growing my business by redefining what a marketing agency can be. We're expanding into web development, digital strategy, and data-driven marketing, with a unique niche: we make it incredibly easy for clients to work with us. Our process is seamless, personal, and focused on delivering high-quality results without hassle. My goal is to bridge the gap between technology and business while ensuring our clients experience simplicity and excellence.
 
-💬 Ask me about: Coding, teaching strategies, or anything related to science and programming!
+**🌱 Always Learning & Growing:**  
+I’m diving into NextJS, refining my skills on the electric guitar, and expanding my knowledge in server maintenance. But learning for me goes beyond code—I’m constantly pushing myself in business, leadership, and creative projects.
 
-📫 How to reach me: Feel free to connect on [LinkedIn](https://www.linkedin.com/in/zachlagden/).
+**💬 Ask Me About:**  
+Programming, business strategy, entrepreneurship, server management, VPS, Cloudflare, web development, Flask, or music. Whether it’s navigating the complexities of scaling a start-up or discussing the finer points of Python, I’m here for it.
 
-⚡ Fun fact: When I'm not coding or teaching, you can find me enjoying a round of golf or diving into my favorite music genres.
+**📫 Get in Touch:**  
+Connect with me on [LinkedIn](https://www.linkedin.com/in/zachlagden/) or send me an email at [zachlagden@lagden.dev](mailto:zachlagden@lagden.dev).
 
-Let's collaborate and create something amazing! 🚀
+**⚡ Fun Fact:**  
+When I’m not coding or working on my business, you’ll find me on the golf course, immersed in music, or exploring [another hobby/interest].
+
+I’m passionate about creating impactful solutions—let’s collaborate and bring your ideas to life! 🚀
 
 ## My Websites
 1. [zachlagden.uk](https://zachlagden.uk)
 2. [lagden.dev](https://lagden.dev)
-3. [betterqr.app](https://betterqr.app)
-4. [clclientsolutions.org](https://clclientsolutions.org)
 
 ## Skills
 [![Discord Presence](https://skillicons.dev/icons?i=ae,atom,au,azure,bash,bootstrap,cloudflare,codepen,debian,discord,bots,django,electron,figma,gcp,git,github,githubactions,gitlab,gmail,html,js,jquery,kali,linkedin,linux,md,mongodb,notion,npm,opencv,ps,postman,powershell,pr,pycharm,raspberrypi,regex,replit,stackoverflow,svg,tailwind,tensorflow,ts,vscode,windows,ubuntu,wordpress&perline=8&theme=dark)](https://skillicons.dev/)
-
-## Activity
-[![Discord Presence](https://lanyard.cnrad.dev/api/1277005773230313474?hideProfile=true)](https://discord.com/users/1277005773230313474)
 
 ## Statistics
 [![Visits Badge](https://badges.pufler.dev/visits/zachlagden/zachlagden)](https://github.com/zachlagden/zachlagden) [![Visits Badge](https://badges.pufler.dev/years/zachlagden)](https://github.com/zachlagden) [![Visits Badge](https://badges.pufler.dev/repos/zachlagden)](https://github.com/zachlagden?tab=repositories)
