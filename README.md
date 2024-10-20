@@ -20,7 +20,7 @@ Programming, business strategy, entrepreneurship, server management, VPS, Cloudf
 Connect with me on [LinkedIn](https://www.linkedin.com/in/zachlagden/) or send me an email at [zachlagden@lagden.dev](mailto:zachlagden@lagden.dev).
 
 **⚡ Fun Fact:**  
-When I’m not coding or working on my business, you’ll find me on the golf course, immersed in music, or exploring [another hobby/interest].
+When I’m not coding or working on my business, you’ll find me on the golf course, immersed in music, or training in the gym.
 
 I’m passionate about creating impactful solutions—let’s collaborate and bring your ideas to life! 🚀
 
