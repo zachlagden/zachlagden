@@ -58,9 +58,9 @@ You can explore some of my open-source work through [Lagden Development](https:/
 ## ⚡ Beyond Code
 
 When I'm not immersed in technology, you'll find me:
-- Playing golf
-- Creating music
 - Training at the gym
+- Listening to music
+- Playing some games
 
 ---
 
