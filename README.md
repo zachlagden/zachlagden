@@ -2,7 +2,7 @@
 
 # Hi, I'm Zach! 👋
 
-### Entrepreneur | Technical Architect | Software Engineer
+### Entrepreneur | Technical Architect | Full-Stack Developer
 
 *Based in Ascot, UK*
 
