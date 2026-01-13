@@ -2,7 +2,7 @@
 
 Building things across the stack — and the business. Based in Ascot, UK.
 
-**CTO & Co-Founder** at [DigiGrow](https://digigrow.uk) — built it from zero. If it runs, I built it.
+**Director & Technical Co-Founder** at [DigiGrow](https://digigrow.uk) — built it from zero. If it runs, I built it.
 
 I also run [Lagden Development](https://lagden.dev) for open-source projects and dev tools.
 
