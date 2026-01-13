@@ -55,4 +55,5 @@ I also run [Lagden Development](https://lagden.dev) for open-source projects and
 
 ---
 
-<sub>![Profile Views](https://komarev.com/ghpvc/?username=zachlagden&color=grey&style=flat&label=views) · counter reset jan 2026</sub>
+<sub>![Profile Views](https://komarev.com/ghpvc/?username=zachlagden&color=grey&style=flat&label=views)<br>
+counter reset jan 2026</sub>
