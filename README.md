@@ -1,71 +1,52 @@
-<div align="center">
+# Hey, I'm Zach 👋
 
-# Hi, I'm Zach! 👋
+I build things for the web. Based in Ascot, UK.
 
-### Entrepreneur | Technical Architect | Full-Stack Developer
+**CTO & Co-Founder** at [DigiGrow](https://digigrow.uk) — we're a web dev & marketing agency helping businesses actually get results online.
 
-*Based in Ascot, UK*
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue.svg)](https://www.linkedin.com/in/zachlagden/)
-[![Email](https://img.shields.io/badge/Email-Contact-red.svg)](mailto:zachlagden@lagden.dev)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green.svg)](https://zachlagden.uk)
-
-</div>
-
-## 🚀 About Me
-
-I'm a dynamic entrepreneur and problem-solver who thrives at the intersection of technology, business strategy, and creative thinking. As the:
-- Co-Founder and CTO at [DigiGrow LTD](https://digigrow.uk)
-- Founder of [Lagden Development](https://lagden.dev)
-
-I specialize in turning complex technical challenges into elegant, business-driving solutions.
-
-## 🔧 Professional Focus
-
-I'm redefining what a marketing agency can be by:
-- Expanding into comprehensive web development
-- Implementing data-driven marketing strategies
-- Creating seamless, client-centric processes
-- Delivering high-quality results without complexity
-
-You can explore some of my open-source work through [Lagden Development](https://github.com/Lagden-Development).
-
-## 💼 Expertise
-
-- **Business Development:** Strategic planning, growth optimization, digital transformation
-- **Technical Architecture:** Infrastructure design, scalability solutions, system optimization
-- **Software Engineering:** Full-stack development, API design, cloud solutions
-- **Technologies:** Ubuntu, VPS, Cloudflare, Flask, NGINX, and more
-
-## 🌱 Current Learning Journey
-
-- Mastering NextJS for advanced web applications
-- Refining electric guitar skills
-- Expanding server maintenance expertise
-- Developing business leadership capabilities
-
-## 🌐 My Digital Presence
-
-- [zachlagden.uk](https://zachlagden.uk) - Personal Portfolio
-- [lagden.dev](https://lagden.dev) - Development Studio
-
-## 🔥 Skills & Stats
-
-|💻 Technical Skills |📈 GitHub Statistics |
-|---|---|
-|[![Skills](https://skillicons.dev/icons?i=ae,atom,au,bash,cloudflare,codepen,css,debian,discord,bots,docker,emotion,fastapi,figma,flask,git,github,githubactions,gitlab,gmail,gulp,html,ai,js,jquery,kali,linkedin,linux,md,mongodb,mysql,nextjs,nginx,nodejs,notion,npm,opencv,ps,pnpm,postman,powershell,pr,py,raspberrypi,regex,replit,sqlite,stackoverflow,styledcomponents,sentry,svg,tailwind,threejs,ts,ubuntu,vercel,vscode,webpack,windows,wordpress&perline=8&theme=dark)](https://skillicons.dev/)|<div align="center">[![Profile Views](https://komarev.com/ghpvc/?username=zachlagden&color=blueviolet&style=flat)](https://github.com/zachlagden) [![Followers](https://img.shields.io/github/followers/zachlagden?label=Followers&style=flat&color=blue)](https://github.com/zachlagden) [![Years](https://img.shields.io/badge/GitHub-6%20years-brightgreen)](https://github.com/zachlagden) <br><br><br> ![Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zachlagden&theme=github_dark)</div>|
-
-## ⚡ Beyond Code
-
-When I'm not immersed in technology, you'll find me:
-- Training at the gym
-- Listening to music
-- Playing some games
+I also run [Lagden Development](https://lagden.dev) for open-source projects and dev tools.
 
 ---
 
-<div align="center">
+### What I Work With
 
-*Let's collaborate and bring your ideas to life! Feel free to reach out.*
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/-Flask-000?style=flat&logo=flask)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat&logo=next.js)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![NGINX](https://img.shields.io/badge/-NGINX-009639?style=flat&logo=nginx&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
 
-</div>
+---
+
+### Stats
+
+<a href="https://github.com/zachlagden">
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=zachlagden&theme=github_dark" alt="Zach's GitHub activity" />
+</a>
+
+<a href="https://github.com/zachlagden">
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zachlagden&theme=github_dark" alt="Top Languages by Repo" />
+</a>
+
+<a href="https://github.com/zachlagden">
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=zachlagden&theme=github_dark" alt="Top Languages by Commit" />
+</a>
+
+---
+
+### Find Me
+
+[![Portfolio](https://img.shields.io/badge/zachlagden.uk-000?style=flat&logo=safari&logoColor=white)](https://zachlagden.uk)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zachlagden/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:zachlagden@lagden.dev)
+
+---
+
+<sub>![Profile Views](https://komarev.com/ghpvc/?username=zachlagden&color=grey&style=flat&label=views) · counter reset jan 2026</sub>
