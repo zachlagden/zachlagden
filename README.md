@@ -10,11 +10,11 @@ I also run [Lagden Development](https://lagden.dev) for open-source projects and
 
 ### What I'm Building
 
-🤖 **AI Agents** — Multi-agent AI systems that run my life and business. Autonomous agents handling operations, legal, and infrastructure. → [donna.fyi](https://donna.fyi)
+**AI Agents** — Multi-agent AI systems that run my life and business. Autonomous agents handling operations, legal, and infrastructure. → [donna.fyi](https://donna.fyi)
 
-🛡️ **Pi-hole** — Optimised blocklists used by hundreds. → [Pi-hole-Optimized-Blocklists](https://github.com/zachlagden/Pi-hole-Optimized-Blocklists)
+**Pi-hole** — Optimised blocklists used by hundreds. → [Pi-hole-Optimized-Blocklists](https://github.com/zachlagden/Pi-hole-Optimized-Blocklists)
 
-🔒 Most of my advanced work lives in private repos at DigiGrow — what you see here is the tip of the iceberg.
+Most of my advanced work lives in private repos at DigiGrow — what you see here is the tip of the iceberg.
 
 ---
 
