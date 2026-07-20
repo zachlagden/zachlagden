@@ -4,11 +4,15 @@ Building things across the stack — and the business. Based in Ascot, UK.
 
 Director & Technical Co-Founder at [DigiGrow](https://digigrow.uk) — built it from zero. If it runs, I built it.
 
+The short version of what I do: I build and run the entire technical side of a business — custom software, infrastructure, internal systems and AI, from the inside rather than as an outside vendor. The non-technical telling of that story lives at [zachlagden.uk](https://zachlagden.uk).
+
 I also run [Lagden Development](https://lagden.dev) for open-source projects and dev tools.
 
 ---
 
 ### What I'm Building
+
+**Business Systems** — DigiGrow runs on software I built. Helm: the company's own operating system — tasks, projects, SOPs, company knowledge and chat in one custom platform. Plus an outreach platform 40+ sales reps work in daily: lead assignment, automated cold email, every conversation logged, full outreach-to-funnel attribution. Private repos. → [zachlagden.uk](https://zachlagden.uk)
 
 **AI Agents** — Multi-agent AI systems that run my life and business. Autonomous agents handling operations, legal, and infrastructure. → [donna.fyi](https://donna.fyi)
 
@@ -80,6 +84,7 @@ Thanks to everyone who supports my work. ❤️
 ### Find Me
 
 [![Portfolio](https://img.shields.io/badge/zachlagden.uk-000?style=flat&logo=safari&logoColor=white)](https://zachlagden.uk)
+[![Instagram](https://img.shields.io/badge/@lagd.z-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/lagd.z/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zachlagden/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:zach@zachlagden.uk)
 
