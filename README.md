@@ -6,8 +6,6 @@ Director & Technical Co-Founder at [DigiGrow](https://digigrow.uk) — built it 
 
 The short version of what I do: I build and run the entire technical side of a business — custom software, infrastructure, internal systems and AI, from the inside rather than as an outside vendor. The non-technical telling of that story lives at [zachlagden.uk](https://zachlagden.uk).
 
-I also run [Lagden Development](https://lagden.dev) for open-source projects and dev tools.
-
 ---
 
 ### What I'm Building
