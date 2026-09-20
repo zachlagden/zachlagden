@@ -82,7 +82,6 @@ Thanks to everyone who supports my work. ❤️
 
 [![Lagden Ltd](https://img.shields.io/badge/lagden.dev-000?style=flat&logo=safari&logoColor=white)](https://lagden.dev)
 [![Personal site](https://img.shields.io/badge/zachlagden.uk-444?style=flat&logo=safari&logoColor=white)](https://zachlagden.uk)
-[![Instagram](https://img.shields.io/badge/@lagd.z-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/lagd.z/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zachlagden/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:zach@zachlagden.uk)
 
