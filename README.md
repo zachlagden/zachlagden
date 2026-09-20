@@ -1,57 +1,56 @@
 # Hey, I'm Zach 👋
 
-Building things across the stack — and the business. Based in Ascot, UK.
+Founder of [Lagden Ltd](https://lagden.dev). Based in Ascot, UK.
 
-Director & Technical Co-Founder at [DigiGrow](https://digigrow.uk) — built it from zero. If it runs, I built it.
+**Your business shouldn't have to bend to fit its software.**
 
-The short version of what I do: I build and run the entire technical side of a business — custom software, infrastructure, internal systems and AI, from the inside rather than as an outside vendor. The non-technical telling of that story lives at [zachlagden.uk](https://zachlagden.uk).
-
----
-
-### What I'm Building
-
-**Business Systems** — DigiGrow runs on software I built. Helm: the company's own operating system — tasks, projects, SOPs, company knowledge and chat in one custom platform. Plus an outreach platform 40+ sales reps work in daily: lead assignment, automated cold email, every conversation logged, full outreach-to-funnel attribution. Private repos. → [zachlagden.uk](https://zachlagden.uk)
-
-**AI Agents** — Multi-agent AI systems that run my life and business. Autonomous agents handling operations, legal, and infrastructure. → [donna.fyi](https://donna.fyi)
-
-**Pi-hole** — Optimised blocklists used by hundreds. → [Pi-hole-Optimized-Blocklists](https://github.com/zachlagden/Pi-hole-Optimized-Blocklists)
-
-Most of my advanced work lives in private repos at DigiGrow — what you see here is the tip of the iceberg.
+Most businesses end up working around their tools: a CRM that almost fits, apps that don't talk to each other, a spreadsheet holding it together. I build the other way round — learn how the business actually runs, then build the software around that. CRMs, client portals, booking systems, and the internal tools a team lives in.
 
 ---
 
-### What I Work With
+### What I'm building
+
+**Lagden Ltd** — custom software for businesses: the systems they run on, built to fit how they already work. → [lagden.dev](https://lagden.dev)
+
+**Business systems, before that** — I co-founded DigiGrow at 16 and built what it ran on: Helm, the company's own operating system (tasks, projects, SOPs, knowledge and chat), and the outreach platform its 40+ sales reps worked in every day. Private repos; the story is at [zachlagden.uk](https://zachlagden.uk).
+
+**AI agents** — multi-agent systems that run my own operations and infrastructure. → [donna.fyi](https://donna.fyi)
+
+**Pi-hole blocklists** — deduplicated blocklists merged from 35 sources, rebuilt weekly. 2.4M+ domains, and the most-used thing I've put on GitHub. → [Pi-hole-Optimized-Blocklists](https://github.com/zachlagden/Pi-hole-Optimized-Blocklists)
+
+---
+
+### What I work with
 
 Languages<br>
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Rust](https://img.shields.io/badge/-Rust-000?style=flat&logo=rust)
-![C#](https://img.shields.io/badge/-C%23-512BD4?style=flat&logo=dotnet&logoColor=white)
 
-Web & Apps<br>
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
+Web & apps<br>
 ![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat&logo=next.js)
-![React Native](https://img.shields.io/badge/-React%20Native-61DAFB?style=flat&logo=react&logoColor=black)
-![WordPress](https://img.shields.io/badge/-WordPress-21759B?style=flat&logo=wordpress&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/-Flask-000?style=flat&logo=flask)
 
 Data<br>
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat&logo=redis&logoColor=white)
 
 Infrastructure<br>
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![NGINX](https://img.shields.io/badge/-NGINX-009639?style=flat&logo=nginx&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
 ![Coolify](https://img.shields.io/badge/-Coolify-6B16ED?style=flat&logo=icloud&logoColor=white)
 
+---
+
+### Work with me
+
+Building something your business actually needs? → **zach@lagden.dev** · [lagden.dev](https://lagden.dev)
+
+Everything else → **zach@zachlagden.uk**
 
 ---
 
@@ -81,7 +80,8 @@ Thanks to everyone who supports my work. ❤️
 
 ### Find Me
 
-[![Portfolio](https://img.shields.io/badge/zachlagden.uk-000?style=flat&logo=safari&logoColor=white)](https://zachlagden.uk)
+[![Lagden Ltd](https://img.shields.io/badge/lagden.dev-000?style=flat&logo=safari&logoColor=white)](https://lagden.dev)
+[![Personal site](https://img.shields.io/badge/zachlagden.uk-444?style=flat&logo=safari&logoColor=white)](https://zachlagden.uk)
 [![Instagram](https://img.shields.io/badge/@lagd.z-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/lagd.z/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zachlagden/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:zach@zachlagden.uk)
