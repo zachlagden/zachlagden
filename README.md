@@ -1,22 +1,26 @@
-# Hey, I'm Zach 👋
+# Hey, I'm Zach
 
-Founder of [Lagden Ltd](https://lagden.dev). Based in Ascot, UK.
+I'm a developer based in Ascot, UK, and founder of [Lagden Ltd](https://lagden.uk).
 
-**Your business shouldn't have to bend to fit its software.**
+### Public projects
 
-Most businesses end up working around their tools: a CRM that almost fits, apps that don't talk to each other, a spreadsheet holding it together. I build the other way round — learn how the business actually runs, then build the software around that. CRMs, client portals, booking systems, and the internal tools a team lives in.
+- [Pi-hole Optimized Blocklists](https://github.com/zachlagden/Pi-hole-Optimized-Blocklists) combines and deduplicates curated blocklists, with fresh lists built every week. [![GitHub stars](https://img.shields.io/github/stars/zachlagden/Pi-hole-Optimized-Blocklists?style=flat&label=stars)](https://github.com/zachlagden/Pi-hole-Optimized-Blocklists/stargazers)
+- [Pi-hole Blocklist Optimizer](https://github.com/zachlagden/Pi-hole-Blocklist-Optimizer) is a Rust command-line tool that downloads, validates and deduplicates blocklists. [![GitHub stars](https://img.shields.io/github/stars/zachlagden/Pi-hole-Blocklist-Optimizer?style=flat&label=stars)](https://github.com/zachlagden/Pi-hole-Blocklist-Optimizer/stargazers)
+- [Zach's Lists](https://github.com/zachlagden/Zachs-Lists) lets you choose sources, whitelist domains and generate your own blocklists. [Try it online](https://lists.zachlagden.uk).
+- [discordctl](https://github.com/zachlagden/discordctl) manages Discord servers from the terminal and previews changes before you confirm them.
+- [OpenHere](https://github.com/zachlagden/openhere) hosts static sites on your own server, with an API for AI agents to publish built folders.
+- [linkgate](https://github.com/zachlagden/linkgate) lets you choose which Windows browser opens a link from WSL, with URL inspection and blocklist checks.
+- [tally](https://github.com/zachlagden/tally) counts lines, functions, classes and code complexity across 37 languages.
+- [claude-status-line](https://github.com/zachlagden/claude-status-line) shows session details and running subagents in Claude Code's terminal status line.
+- [umami-sdk](https://github.com/zachlagden/umami-sdk) provides a typed client for Umami analytics, with browser, server and framework integrations.
 
 ---
 
-### What I'm building
+### Business work
 
-**Lagden Ltd** — custom software for businesses: the systems they run on, built to fit how they already work. → [lagden.dev](https://lagden.dev)
+At [Lagden Ltd](https://lagden.uk), I build custom software and websites for businesses, with a fixed price agreed before work starts. I also offer ongoing website care, one-off fixes and help keeping business details accurate online.
 
-**Business systems, before that** — I co-founded DigiGrow at 16 and built what it ran on: Helm, the company's own operating system (tasks, projects, SOPs, knowledge and chat), and the outreach platform its 40+ sales reps worked in every day. Private repos; the story is at [zachlagden.uk](https://zachlagden.uk).
-
-**AI agents** — multi-agent systems that run my own operations and infrastructure. → [donna.fyi](https://donna.fyi)
-
-**Pi-hole blocklists** — deduplicated blocklists merged from 35 sources, rebuilt weekly. 2.4M+ domains, and the most-used thing I've put on GitHub. → [Pi-hole-Optimized-Blocklists](https://github.com/zachlagden/Pi-hole-Optimized-Blocklists)
+I co-founded DigiGrow at 16 and built the systems it ran on. That included Helm for tasks, projects, SOPs, knowledge and chat, and the outreach platform its 40+ sales reps used every day. The repos are private. [The story is on my website](https://zachlagden.uk).
 
 ---
 
@@ -48,17 +52,17 @@ Infrastructure<br>
 
 ### Work with me
 
-Building something your business actually needs? → **zach@lagden.dev** · [lagden.dev](https://lagden.dev)
+For websites, custom software or website care, contact [hello@lagden.uk](mailto:hello@lagden.uk) or visit [lagden.uk](https://lagden.uk).
 
-Everything else → **zach@zachlagden.uk**
+For everything else, email [zach@zachlagden.uk](mailto:zach@zachlagden.uk).
 
 ---
 
 ### Sponsors
 
-Thanks to everyone who supports my work. ❤️
+Thanks to everyone who supports my work.
 
-**One-Time**
+**One-time**
 
 [![@rnsimmons](https://img.shields.io/badge/@rnsimmons-EA4AAA?style=flat&logo=github-sponsors&logoColor=white)](https://github.com/rnsimmons)
 
@@ -70,23 +74,22 @@ Thanks to everyone who supports my work. ❤️
   <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=zachlagden&theme=github_dark" alt="Zach's GitHub activity" />
 </a>
 <a href="https://github.com/zachlagden">
-  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zachlagden&theme=github_dark" alt="Top Languages by Repo" />
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zachlagden&theme=github_dark" alt="Top languages by repo" />
 </a>
 <a href="https://github.com/zachlagden">
-  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=zachlagden&theme=github_dark" alt="Top Languages by Commit" />
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=zachlagden&theme=github_dark" alt="Top languages by commit" />
 </a>
 
 ---
 
-### Find Me
+### Find me
 
-[![Lagden Ltd](https://img.shields.io/badge/lagden.dev-000?style=flat&logo=safari&logoColor=white)](https://lagden.dev)
+[![Lagden Ltd](https://img.shields.io/badge/lagden.uk-000?style=flat&logo=safari&logoColor=white)](https://lagden.uk)
 [![Personal site](https://img.shields.io/badge/zachlagden.uk-444?style=flat&logo=safari&logoColor=white)](https://zachlagden.uk)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zachlagden/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:zach@zachlagden.uk)
 
 ---
 
-<sub>![Profile Views](https://komarev.com/ghpvc/?username=zachlagden&color=grey&style=flat&label=views)<br>
-counter reset jan 2026</sub>
-
+<sub>![Profile views](https://komarev.com/ghpvc/?username=zachlagden&color=grey&style=flat&label=views)<br>
+Counter reset January 2026</sub>
