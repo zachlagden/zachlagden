@@ -26,27 +26,12 @@ I co-founded DigiGrow at 16 and built the systems it ran on. That included Helm 
 
 ### What I work with
 
-Languages<br>
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/-Rust-000?style=flat&logo=rust)
-
-Web & apps<br>
-![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat&logo=next.js)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-
-Data<br>
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat&logo=redis&logoColor=white)
-
-Infrastructure<br>
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
-![Coolify](https://img.shields.io/badge/-Coolify-6B16ED?style=flat&logo=icloud&logoColor=white)
+<!-- skills:start -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="skills/skills-dark.svg">
+  <img src="skills/skills-light.svg" alt="What I work with. Languages: TypeScript, JavaScript, Python, Go, Rust, Kotlin. Frameworks and libraries: Next.js, React, Svelte, Vue, Tailwind CSS, Base UI, Tauri, Hono, FastAPI, Drizzle ORM. Data: PostgreSQL, SQLite, MySQL, MariaDB, MongoDB, Redis. Infrastructure and self-hosting: Docker, Linux, Proxmox, Tailscale, GitHub Actions, Coolify, Traefik, Mailcow, Borgmatic. Hosting and services: Cloudflare (Workers, Pages, R2 and D1), Netcup, Hetzner, Hostinger, Namecheap, Resend, Stripe. AI: Anthropic, OpenAI, MiniMax, OpenRouter, ElevenLabs, MCP." width="480">
+</picture>
+<!-- skills:end -->
 
 ---
 

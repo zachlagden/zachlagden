@@ -1,0 +1,78 @@
+{
+  "groups": [
+    {
+      "label": "Languages",
+      "items": [
+        { "name": "TypeScript", "icon": "typescript" },
+        { "name": "JavaScript", "icon": "javascript" },
+        { "name": "Python", "icon": "python" },
+        { "name": "Go", "icon": "go" },
+        { "name": "Rust", "icon": "rust" },
+        { "name": "Kotlin", "icon": "kotlin" }
+      ]
+    },
+    {
+      "label": "Frameworks and libraries",
+      "items": [
+        { "name": "Next.js", "icon": "nextdotjs" },
+        { "name": "React", "icon": "react" },
+        { "name": "Svelte", "icon": "svelte" },
+        { "name": "Vue", "icon": "vuedotjs" },
+        { "name": "Tailwind CSS", "icon": "tailwindcss" },
+        { "name": "Base UI", "icon": "baseui" },
+        { "name": "Tauri", "icon": "tauri" },
+        { "name": "Hono", "icon": "hono" },
+        { "name": "FastAPI", "icon": "fastapi" },
+        { "name": "Drizzle ORM", "icon": "drizzle" }
+      ]
+    },
+    {
+      "label": "Data",
+      "items": [
+        { "name": "PostgreSQL", "icon": "postgresql" },
+        { "name": "SQLite", "icon": "sqlite" },
+        { "name": "MySQL", "icon": "mysql" },
+        { "name": "MariaDB", "icon": "mariadb" },
+        { "name": "MongoDB", "icon": "mongodb" },
+        { "name": "Redis", "icon": "redis" }
+      ]
+    },
+    {
+      "label": "Infrastructure and self-hosting",
+      "items": [
+        { "name": "Docker", "icon": "docker" },
+        { "name": "Linux", "icon": "linux" },
+        { "name": "Proxmox", "icon": "proxmox" },
+        { "name": "Tailscale", "icon": "tailscale" },
+        { "name": "GitHub Actions", "icon": "githubactions" },
+        { "name": "Coolify", "icon": "coolify" },
+        { "name": "Traefik", "icon": "traefikproxy" },
+        { "name": "Mailcow", "icon": "mailcow" },
+        { "name": "Borgmatic", "icon": "borgmatic" }
+      ]
+    },
+    {
+      "label": "Hosting and services",
+      "items": [
+        { "name": "Cloudflare", "icon": "cloudflare", "detail": "Workers, Pages, R2 and D1" },
+        { "name": "Netcup", "icon": "netcup" },
+        { "name": "Hetzner", "icon": "hetzner" },
+        { "name": "Hostinger", "icon": "hostinger" },
+        { "name": "Namecheap", "icon": "namecheap" },
+        { "name": "Resend", "icon": "resend" },
+        { "name": "Stripe", "icon": "stripe" }
+      ]
+    },
+    {
+      "label": "AI",
+      "items": [
+        { "name": "Anthropic", "icon": "anthropic" },
+        { "name": "OpenAI", "icon": "openai" },
+        { "name": "MiniMax", "icon": "minimax" },
+        { "name": "OpenRouter", "icon": "openrouter" },
+        { "name": "ElevenLabs", "icon": "elevenlabs" },
+        { "name": "MCP", "icon": "modelcontextprotocol" }
+      ]
+    }
+  ]
+}
