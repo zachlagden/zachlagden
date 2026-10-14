@@ -85,7 +85,7 @@ func (h *badgeHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	w.Header().Set("Content-Type", "image/svg+xml; charset=utf-8")
-	w.Header().Set("Cache-Control", "public, max-age=300")
+	w.Header().Set("Cache-Control", "no-cache")
 	w.Header().Set("Content-Security-Policy", "default-src 'none'; sandbox")
 	if r.Method == http.MethodHead {
 		w.WriteHeader(http.StatusOK)

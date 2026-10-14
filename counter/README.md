@@ -2,7 +2,7 @@
 
 A Go service that returns an SVG badge at `/badge.svg` and stores its count in SQLite.
 
-Only `GET` requests whose `User-Agent` starts with `github-camo` increment the counter. Other `GET` requests and all `HEAD` requests read its current value. Responses allow five minutes of caching.
+Only `GET` requests whose `User-Agent` starts with `github-camo` increment the counter. Other `GET` requests and all `HEAD` requests read its current value. Responses use `Cache-Control: no-cache` so caches must revalidate before reusing the badge.
 
 This counts GitHub image-proxy fetches, not unique visitors. The user-agent check is not tamper-proof. The service stores no visitor identities or request history.
 

@@ -6,7 +6,7 @@ paths:
   /badge.svg:
     get:
       summary: Read the view count as an SVG badge
-      description: Requests whose User-Agent begins with github-camo increment the count. Other requests read the current count. Responses may be cached for five minutes.
+      description: Requests whose User-Agent begins with github-camo increment the count. Other requests read the current count. Responses use Cache-Control no-cache to require revalidation before reuse.
       parameters:
         - name: User-Agent
           in: header

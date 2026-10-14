@@ -84,7 +84,7 @@ func TestBadgeHeaders(t *testing.T) {
 	handler.ServeHTTP(response, httptest.NewRequest(http.MethodGet, "/badge.svg", nil))
 	for name, expected := range map[string]string{
 		"Content-Type":            "image/svg+xml; charset=utf-8",
-		"Cache-Control":           "public, max-age=300",
+		"Cache-Control":           "no-cache",
 		"X-Content-Type-Options":  "nosniff",
 		"Content-Security-Policy": "default-src 'none'; sandbox",
 	} {
