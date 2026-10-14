@@ -91,5 +91,4 @@ Thanks to everyone who supports my work.
 
 ---
 
-<sub>![Profile views](https://komarev.com/ghpvc/?username=zachlagden&color=grey&style=flat&label=views)<br>
-Counter reset January 2026</sub>
+![Profile views](https://github-readme-views.zachlagden.uk/badge.svg)
