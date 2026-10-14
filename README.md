@@ -28,8 +28,10 @@ I co-founded DigiGrow at 16 and built the systems it ran on. That included Helm 
 
 <!-- skills:start -->
 <picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="skills/skills-narrow-dark.svg">
+  <source media="(max-width: 600px)" srcset="skills/skills-narrow-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="skills/skills-dark.svg">
-  <img src="skills/skills-light.svg" alt="What I work with. Languages: TypeScript, JavaScript, Python, Go, Rust, Kotlin. Frameworks and libraries: Next.js, React, Svelte, Vue, Tailwind CSS, Base UI, Tauri, Hono, FastAPI, Drizzle ORM. Data: PostgreSQL, SQLite, MySQL, MariaDB, MongoDB, Redis. Infrastructure and self-hosting: Docker, Linux, Proxmox, Tailscale, GitHub Actions, Coolify, Traefik, Mailcow, Borgmatic. Hosting and services: Cloudflare (Workers, Pages, R2 and D1), Netcup, Hetzner, Hostinger, Namecheap, Resend, Stripe. AI: Anthropic, OpenAI, MiniMax, OpenRouter, ElevenLabs, MCP." width="480">
+  <img src="skills/skills-light.svg" alt="What I work with. Languages: TypeScript, JavaScript, Python, Go, Rust, Kotlin. Frameworks and libraries: Next.js, React, Svelte, Vue, Tailwind CSS, Base UI, Tauri, Hono, FastAPI, Drizzle ORM. Data: PostgreSQL, SQLite, MySQL, MariaDB, MongoDB, Redis. Infrastructure and self-hosting: Docker, Linux, Proxmox, Tailscale, GitHub Actions, Coolify, Traefik, Mailcow, Borgmatic. Hosting and services: Cloudflare (Workers, Pages, R2 and D1), Netcup, Hetzner, Hostinger, Namecheap, Resend, Stripe. AI: Anthropic, OpenAI, MiniMax, OpenRouter, ElevenLabs, MCP.">
 </picture>
 <!-- skills:end -->
 
