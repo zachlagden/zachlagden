@@ -24,8 +24,8 @@ const baseLayout = {
 };
 
 const variants = {
-  wide: { suffix: "", width: 840, labelsBeside: true, labelColumn: 160, labelWrapWidth: 150, groupGap: 18, evenRows: true },
-  narrow: { suffix: "-narrow", width: 480, labelsBeside: false, groupGap: 24, evenRows: false },
+  wide: { width: 840, labelsBeside: true, labelColumn: 160, labelWrapWidth: 150, groupGap: 18, evenRows: true },
+  narrow: { width: 480, labelsBeside: false, groupGap: 24, evenRows: false },
 };
 
 const narrowScreenQuery = "(max-width: 600px)";
@@ -212,7 +212,7 @@ function describeGroups() {
   return groups.map((group) => `${group.label}: ${group.items.map(describeItem).join(", ")}.`).join(" ");
 }
 
-function renderSvg(theme, variant) {
+function renderBody(theme, variant) {
   const body = [];
   let top = 0;
   for (const group of groups) {
@@ -220,20 +220,33 @@ function renderSvg(theme, variant) {
     body.push(markup);
     top = bottom + variant.groupGap;
   }
-  const height = top - variant.groupGap;
+  return { markup: body.join(""), height: top - variant.groupGap };
+}
+
+function wrapSvg(width, height, content) {
   const description = escapeXml(describeGroups());
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${variant.width}" height="${height}" viewBox="0 0 ${variant.width} ${height}" font-family='${fontFamily}' role="img" aria-labelledby="title description"><title id="title">What I work with</title><desc id="description">${description}</desc>${body.join("")}</svg>\n`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" font-family='${fontFamily}' role="img" aria-labelledby="title description"><title id="title">What I work with</title><desc id="description">${description}</desc>${content}</svg>\n`;
+}
+
+function renderSvg(theme, variant) {
+  const { markup, height } = renderBody(theme, variant);
+  return wrapSvg(variant.width, height, markup);
+}
+
+function renderSelfThemedSvg(variant) {
+  const light = renderBody(themes.light, variant);
+  const dark = renderBody(themes.dark, variant);
+  const style = "<style>.dark{display:none}@media (prefers-color-scheme: dark){.light{display:none}.dark{display:inline}}</style>";
+  return wrapSvg(variant.width, light.height, `${style}<g class="light">${light.markup}</g><g class="dark">${dark.markup}</g>`);
 }
 
 function renderPictureMarkup(files) {
   const alt = escapeXml(`What I work with. ${describeGroups()}`);
-  const path = (variantName, themeName) => `skills/${files[variantName][themeName]}`;
   return [
     "<picture>",
-    `  <source media="(prefers-color-scheme: dark) and ${narrowScreenQuery}" srcset="${path("narrow", "dark")}">`,
-    `  <source media="${narrowScreenQuery}" srcset="${path("narrow", "light")}">`,
-    `  <source media="(prefers-color-scheme: dark)" srcset="${path("wide", "dark")}">`,
-    `  <img src="${path("wide", "light")}" alt="${alt}">`,
+    `  <source media="${narrowScreenQuery}" srcset="skills/${files.narrow}">`,
+    `  <source media="(prefers-color-scheme: dark)" srcset="skills/${files.wide.dark}">`,
+    `  <img src="skills/${files.wide.light}" alt="${alt}">`,
     "</picture>",
   ].join("\n");
 }
@@ -254,22 +267,25 @@ function contentHash(content) {
 }
 
 function removePreviousGraphics() {
-  const graphicName = /^skills(-narrow)?-(light|dark)(\.[0-9a-f]{8})?\.svg$/;
+  const graphicName = /^skills(-narrow)?(-(light|dark))?(\.[0-9a-f]{8})?\.svg$/;
   for (const file of readdirSync(skillsDirectory)) {
     if (graphicName.test(file)) rmSync(join(skillsDirectory, file));
   }
 }
 
-removePreviousGraphics();
-const files = {};
-for (const [variantName, variant] of Object.entries(variants)) {
-  files[variantName] = {};
-  for (const [themeName, theme] of Object.entries(themes)) {
-    const svg = renderSvg(theme, variant);
-    const file = `skills${variant.suffix}-${themeName}.${contentHash(svg)}.svg`;
-    writeFileSync(join(skillsDirectory, file), svg);
-    files[variantName][themeName] = file;
-  }
+function writeGraphic(prefix, svg) {
+  const file = `${prefix}.${contentHash(svg)}.svg`;
+  writeFileSync(join(skillsDirectory, file), svg);
+  return file;
 }
+
+removePreviousGraphics();
+const files = {
+  wide: {
+    light: writeGraphic("skills-light", renderSvg(themes.light, variants.wide)),
+    dark: writeGraphic("skills-dark", renderSvg(themes.dark, variants.wide)),
+  },
+  narrow: writeGraphic("skills-narrow", renderSelfThemedSvg(variants.narrow)),
+};
 updateReadme(files);
-console.log(`Wrote ${Object.values(files).flatMap((themeFiles) => Object.values(themeFiles)).join(", ")}.`);
+console.log(`Wrote ${[files.wide.light, files.wide.dark, files.narrow].join(", ")}.`);
