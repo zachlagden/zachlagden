@@ -37,3 +37,5 @@ docker build -f counter/Dockerfile -t profile-views .
 The badge is at `https://github-readme-views.zachlagden.uk/badge.svg`, with an initial count of 5,866.
 
 Coolify app `78eovlfehtijc1zl9rhm7myl` builds `/counter/Dockerfile` from this repository. Its container is `github-readme-views`, with volume `78eovlfehtijc1zl9rhm7myl-github-readme-views-data` mounted at `/data`. Traefik handles HTTPS and Cloudflare proxies the hostname.
+
+A Cloudflare Cache Rule bypasses edge caching for this hostname's `/badge.svg` route and respects the origin's browser cache policy.
