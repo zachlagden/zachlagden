@@ -1,0 +1,29 @@
+name: Counter checks
+
+on:
+  push:
+    paths:
+      - counter/**
+      - .github/workflows/counter.yml
+  pull_request:
+    paths:
+      - counter/**
+      - .github/workflows/counter.yml
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: counter/go.mod
+          cache-dependency-path: counter/go.sum
+      - run: go test -race -count=1 ./...
+        working-directory: counter
+      - run: go vet ./...
+        working-directory: counter
+      - run: docker build -f counter/Dockerfile -t profile-views:test .

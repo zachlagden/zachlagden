@@ -1,0 +1,43 @@
+openapi: 3.1.0
+info:
+  title: Profile views counter
+  version: 1.0.0
+paths:
+  /badge.svg:
+    get:
+      summary: Read the view count as an SVG badge
+      description: Requests whose User-Agent begins with github-camo increment the count. Other requests read the current count. Responses may be cached for five minutes.
+      parameters:
+        - name: User-Agent
+          in: header
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: The current counter badge
+          content:
+            image/svg+xml:
+              schema:
+                type: string
+        '400':
+          description: Query parameters or a request body were supplied
+        '429':
+          description: The request rate limit was exceeded
+          headers:
+            Retry-After:
+              schema:
+                type: integer
+        '500':
+          description: The counter could not be read or updated
+    head:
+      summary: Check the counter without changing its value
+      responses:
+        '200':
+          description: The database is readable and the badge endpoint is available
+        '400':
+          description: Query parameters or a request body were supplied
+        '429':
+          description: The request rate limit was exceeded
+        '500':
+          description: The counter could not be read
