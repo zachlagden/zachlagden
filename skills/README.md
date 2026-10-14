@@ -4,10 +4,12 @@
 
 | File | Used when |
 | --- | --- |
-| `skills-light.svg`, `skills-dark.svg` | The screen is wider than 600px. Group labels sit beside the pills, which uses the README's full width. |
-| `skills-narrow-light.svg`, `skills-narrow-dark.svg` | The screen is 600px wide or narrower. Labels sit above the pills so the text stays readable on a phone. |
+| `skills-light.<hash>.svg`, `skills-dark.<hash>.svg` | The screen is wider than 600px. Group labels sit beside the pills, which uses the README's full width. |
+| `skills-narrow-light.<hash>.svg`, `skills-narrow-dark.<hash>.svg` | The screen is 600px wide or narrower. Labels sit above the pills so the text stays readable on a phone. |
 
 It also rewrites the `<picture>` block between the `skills:start` and `skills:end` markers in `../README.md`, including the alt text that lists every item. The `<picture>` block picks the file from the screen width and the light or dark theme.
+
+Each filename carries an eight-character hash of its content, and the build deletes the previous files. GitHub and browsers cache an image for five minutes under its URL, so a changed graphic needs a new URL to show up straight away.
 
 ## Update the list
 

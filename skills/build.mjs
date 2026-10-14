@@ -1,4 +1,5 @@
-import { readFileSync, writeFileSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -224,37 +225,51 @@ function renderSvg(theme, variant) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${variant.width}" height="${height}" viewBox="0 0 ${variant.width} ${height}" font-family='${fontFamily}' role="img" aria-labelledby="title description"><title id="title">What I work with</title><desc id="description">${description}</desc>${body.join("")}</svg>\n`;
 }
 
-function renderPictureMarkup() {
+function renderPictureMarkup(files) {
   const alt = escapeXml(`What I work with. ${describeGroups()}`);
-  const path = (name, variant) => `skills/skills${variant.suffix}-${name}.svg`;
+  const path = (variantName, themeName) => `skills/${files[variantName][themeName]}`;
   return [
     "<picture>",
-    `  <source media="(prefers-color-scheme: dark) and ${narrowScreenQuery}" srcset="${path("dark", variants.narrow)}">`,
-    `  <source media="${narrowScreenQuery}" srcset="${path("light", variants.narrow)}">`,
-    `  <source media="(prefers-color-scheme: dark)" srcset="${path("dark", variants.wide)}">`,
-    `  <img src="${path("light", variants.wide)}" alt="${alt}">`,
+    `  <source media="(prefers-color-scheme: dark) and ${narrowScreenQuery}" srcset="${path("narrow", "dark")}">`,
+    `  <source media="${narrowScreenQuery}" srcset="${path("narrow", "light")}">`,
+    `  <source media="(prefers-color-scheme: dark)" srcset="${path("wide", "dark")}">`,
+    `  <img src="${path("wide", "light")}" alt="${alt}">`,
     "</picture>",
   ].join("\n");
 }
 
-function updateReadme() {
+function updateReadme(files) {
   const readme = readFileSync(readmePath, "utf8");
   const pattern = /<!-- skills:start -->[\s\S]*?<!-- skills:end -->/;
   if (!pattern.test(readme)) {
     console.warn("README.md has no skills markers, so it was left unchanged.");
     return;
   }
-  const replacement = `<!-- skills:start -->\n${renderPictureMarkup()}\n<!-- skills:end -->`;
+  const replacement = `<!-- skills:start -->\n${renderPictureMarkup(files)}\n<!-- skills:end -->`;
   writeFileSync(readmePath, readme.replace(pattern, () => replacement));
 }
 
-const written = [];
-for (const variant of Object.values(variants)) {
-  for (const [name, theme] of Object.entries(themes)) {
-    const file = `skills${variant.suffix}-${name}.svg`;
-    writeFileSync(join(skillsDirectory, file), renderSvg(theme, variant));
-    written.push(file);
+function contentHash(content) {
+  return createHash("sha256").update(content).digest("hex").slice(0, 8);
+}
+
+function removePreviousGraphics() {
+  const graphicName = /^skills(-narrow)?-(light|dark)(\.[0-9a-f]{8})?\.svg$/;
+  for (const file of readdirSync(skillsDirectory)) {
+    if (graphicName.test(file)) rmSync(join(skillsDirectory, file));
   }
 }
-updateReadme();
-console.log(`Wrote ${written.join(", ")}.`);
+
+removePreviousGraphics();
+const files = {};
+for (const [variantName, variant] of Object.entries(variants)) {
+  files[variantName] = {};
+  for (const [themeName, theme] of Object.entries(themes)) {
+    const svg = renderSvg(theme, variant);
+    const file = `skills${variant.suffix}-${themeName}.${contentHash(svg)}.svg`;
+    writeFileSync(join(skillsDirectory, file), svg);
+    files[variantName][themeName] = file;
+  }
+}
+updateReadme(files);
+console.log(`Wrote ${Object.values(files).flatMap((themeFiles) => Object.values(themeFiles)).join(", ")}.`);
