@@ -66,18 +66,6 @@ func (s *counterStore) increment(ctx context.Context) (int64, error) {
 	return count, err
 }
 
-func (s *counterStore) backup(ctx context.Context, destination string) error {
-	path, err := filepath.Abs(destination)
-	if err != nil {
-		return fmt.Errorf("resolve backup path: %w", err)
-	}
-	if err := os.MkdirAll(filepath.Dir(path), 0700); err != nil {
-		return fmt.Errorf("create backup directory: %w", err)
-	}
-	_, err = s.db.ExecContext(ctx, "VACUUM INTO ?", path)
-	return err
-}
-
 func (s *counterStore) close() error {
 	return s.db.Close()
 }

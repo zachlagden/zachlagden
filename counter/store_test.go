@@ -68,35 +68,6 @@ func TestConcurrentIncrements(t *testing.T) {
 	}
 }
 
-func TestBackupContainsAConsistentSnapshot(t *testing.T) {
-	store := testStore(t, 27)
-	if _, err := store.increment(context.Background()); err != nil {
-		t.Fatal(err)
-	}
-	path := filepath.Join(t.TempDir(), "snapshot's.sqlite3")
-	if err := store.backup(context.Background(), path); err != nil {
-		t.Fatal(err)
-	}
-	if _, err := store.increment(context.Background()); err != nil {
-		t.Fatal(err)
-	}
-	restored, err := openStore(path, 900)
-	if err != nil {
-		t.Fatal(err)
-	}
-	defer func() {
-		if err := restored.close(); err != nil {
-			t.Error(err)
-		}
-	}()
-	if count, err := restored.read(context.Background()); err != nil || count != 28 {
-		t.Fatalf("restored count = %d, error = %v", count, err)
-	}
-	if err := store.backup(context.Background(), path); err == nil {
-		t.Fatal("backup overwrote an existing snapshot")
-	}
-}
-
 func TestStoreRejectsNegativeSeed(t *testing.T) {
 	if store, err := openStore(filepath.Join(t.TempDir(), "views.sqlite3"), -1); err == nil {
 		if err := store.close(); err != nil {
